@@ -1,0 +1,139 @@
+<html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="img/x-icon" href="/img/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Auto-škola LS</title>
+</head>
+<header id="header">
+    <div id="logo2">
+        <img id="ls-logo" src="img/LS auto skola.webp" alt="">
+    </div>
+    <div id="meni2">
+        <ul> 
+            <li> <a href="index.html">Početna </a> </li>
+            <li> <a href="kategorije.html">Kategorije  </a> </li> 
+            <li> <a href="galerija.html">Galerija</a> </li> 
+            <li> <a href="cene.html">Cene </a> </li> 
+            <li> <a href="oautoru.html">O autoru </a> </li>
+        </ul>
+    </div>
+    <div id="right2">
+        <div id="phone">
+            <a href="#"> <i class="fa-solid fa-square-phone"></i> </a> 0613291105 
+        </div>
+        <div id="gmail">
+            <a href="#"> <i class="fa-solid fa-envelope"></i> </a> stojanovski.l99@gmail.com
+        </div>
+    </div>
+</header>
+<body>
+    <main>
+       <div id="ls">
+        <img src="img/onama.jpg" alt="slika auto skole">
+        <h1>Auto-škola LS</h1>
+         <div id="naslov">
+            <p>•Nasa škola je osnovana jos davne <span class="bold">1994.</span> godine, jedan od razloga osnivanja je bio da vozačku obuku podignemo na viši nivo i stvorimo sigurne i samopouzdane vozače. •Tokom rada za sve ove godine pređena kilometraža je blizu <span class="bold">5.000.000</span> km, čime smo obišli planetu preko <span class="bold">120</span> puta.</p>
+         </div>
+         <div id="naslov2">
+            <p>•Auto-škola LS je mesto gde vozačke veštine postaju vaša stvarnost! Naš cilj je da vam pružimo <span class="bold">kvalitetnu</span> obuku i samopouzdanje za <span class="bold">bezbednu</span> vožnju na svim putevima. <br> •Kroz teorijsku nastavu i praktičnu obuku, naši <span class="bold">iskusni</span> instruktori vode vas korak po korak, prilagođavajući program vašim potrebama i tempu.</p>
+         </div>
+       </div>
+    <div id="glavno">
+        <div>
+        <h2>Zašto izabrati nas?</h2>
+        <hr id="dva">
+        <p>U današnjem dinamičnom saobraćaju, kvalitetna obuka je ključ za bezbednost na putevima. Evo šta nas čini jedinstvenim:</p>
+        </div> 
+        <div class="oskoli">
+         <h3>1.Stručni i posvećeni instruktori</h3>
+         <p>Naš tim čine instruktori sa višegodišnjim iskustvom, koji prilagođavaju metode rada svakom kandidatu. Bez obzira na to da li ste potpuni početnik ili želite da obnovite svoje vozačke veštine, naši instruktori su tu da vas podrže i vode kroz svaki korak obuke.</p>
+        </div>
+    
+        <div class="oskoli">
+         <h3>2.Pristupačne cene i pogodnosti</h3>
+         <p>Auto-škola LS veruje da kvalitetna obuka ne mora biti skupa. Nudimo konkurentne cene, mogućnost plaćanja na rate i specijalne popuste za studente, đake i grupe.</p>
+        </div>
+    
+        <div class="oskoli">
+         <h3>3.Individualni pristup</h3>
+         <p id="poseban">Svaki kandidat je poseban, zato se trudimo da obuku prilagodimo vašem tempu i potrebama. Cilj nam je da se tokom učenja osećate opušteno i sigurno.
+         </p>
+        </div>
+    
+        <div class="oskoli">
+         <h3>4.Fleksibilnost i prilagodljivost</h3>
+         <p>Razumemo koliko je vreme dragoceno, pa nudimo mogućnost zakazivanja časova u terminima koji odgovaraju vašem rasporedu. Bilo da preferirate jutarnje, popodnevne ili večernje časove, naći ćemo rešenje koje vam odgovara.</p>
+        </div>
+    </div>
+    <div id="forma">
+        <img src="img/forma.jpg" alt="cas obuke">
+        <h3>Popunite prijavu i započnite svoju vozačku avanturu već danas!</h3>
+        <p id="prijava">•Ako ste spremni da postanete sigurni i odgovorni vozači? Na <span class="bold">pravom</span> ste mestu! <br> •Auto-škola LS nudi profesionalnu obuku za sve kategorije, uz iskusne instruktore i <span class="bold">moderan</span> vozni park.</p>
+        <form action="/submit" method="POST" class="forma">
+            <div>
+                <label for="name">Ime i prezime:</label>
+                <input type="text" id="name" name="name" placeholder="Unesite ime i prezime" required>
+            </div>
+            <br>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Unesite email" required>
+            </div>
+            <br>
+            <div>
+                <label for="phone">Broj telefona:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Unesite broj telefona" required>
+            </div>
+            <br>
+            <div>
+              <label for="category">Kategorija:</label>
+              <select id="category" name="category" required>
+                <option value="">Izaberite kategoriju</option>
+                <option value="A">A (Motocikli)</option>
+                <option value="B">B (Automobili)</option>
+                <option value="C">C (Kamioni)</option>
+                <option value="D">D (Autobusi)</option>
+              </select>
+            </div>
+            <br>
+            <div>
+                <button type="submit">Prijavi se</button>
+            </div>
+        </form>
+    </div>
+</main>
+<footer>
+    <div id="dno">
+        <div class="futer">
+            <h3>Radno vreme</h3>
+            <p class="vreme">📅Ponedeljak - Petak: 08:00 - 20:00</p>
+            <p class="vreme">📅Subota: 09:00 - 17:00</p>
+            <p class="vreme">📅Nedelja: Neradni dan</p>
+        </div>
+        <div class="futer">
+            <h3>Brzi linkovi</h3>
+            <ul class="linkovi">
+                <li><a href="index.html">Početna</a></li>
+                <li><a href="kategorije.html">Kategorije</a></li>
+                <li><a href="galerija.html">Galerija</a></li>
+                <li><a href="cene.html">Cene</a></li>
+                <li><a href="oautoru.html">O autoru</a></li>
+            </ul>
+        </div>
+        <div class="futer">
+            <h3>Zapratite nas</h3>
+            <ul class="social">
+             <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+             <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+             <li><a href=""><i class="fa-brands fa-square-twitter"></i></a></li>
+             <li><a href=""><i class="fa-brands fa-linkedin"></i></li>
+             </ul>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
